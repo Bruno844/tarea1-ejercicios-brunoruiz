@@ -202,3 +202,7 @@ notas = [8, 5, 9, 4]
 for alumno, nota in zip(alumnos, notas):
     estado = "Aprobado" if nota >= 6 else "Desaprobado"
     print(f"{alumno} - {nota} - {estado}")
+
+
+
+##-----------------------------------------------------------
